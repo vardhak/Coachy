@@ -15,6 +15,7 @@ export default function Navbar() {
   const [isAdmin, setIsAdmin] = useState(false);
   const { isSignedIn } = useAuth();
   const { user, isLoaded } = useUser();
+  const BASE_URL = import.meta.env.VITE_BASE_URL;
 
   useEffect(() => {
     if (isSignedIn && isLoaded) {
@@ -24,7 +25,7 @@ export default function Navbar() {
 
   const checkAdmin = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/getAdmin");
+      const response = await axios.get(`${BASE_URL}/getAdmin`);
       const fetchedAdminEmail = response.data.email;
 
       const currentUserEmail = user?.primaryEmailAddress?.emailAddress;
