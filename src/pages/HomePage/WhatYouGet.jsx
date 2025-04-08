@@ -1,4 +1,3 @@
-import { Image } from "lucide-react";
 import React from "react";
 
 function WhatYouGet() {
@@ -11,8 +10,8 @@ function WhatYouGet() {
       </div>
       <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 w-[87%] mx-auto mt-8">
         <div className="border shadow-lg rounded-lg p-4 flex flex-col justify-center items-center text-center">
-          <Image
-            src="/icons/checked.svg"
+          <img
+            src=""
             alt="img"
             className="w-6 h-6 mb-2.5"
           />
@@ -23,8 +22,8 @@ function WhatYouGet() {
           </p>
         </div>
         <div className="border shadow-lg rounded-lg p-4 flex flex-col justify-center items-center text-center">
-          <Image
-            src="/icons/checked.svg"
+          <img
+            src=""
             alt="img"
             className="w-6 h-6 mb-2.5"
           />
@@ -35,8 +34,8 @@ function WhatYouGet() {
           </p>
         </div>
         <div className="border shadow-lg rounded-lg p-4 flex flex-col justify-center items-center text-center">
-          <Image
-            src="/icons/checked.svg"
+          <img
+            src=""
             alt="img"
             className="w-6 h-6 mb-2.5"
           />
@@ -47,8 +46,8 @@ function WhatYouGet() {
           </p>
         </div>
         <div className="border shadow-lg rounded-lg p-4 flex flex-col justify-center items-center text-center">
-          <Image
-            src="/icons/checked.svg"
+          <img
+            src=""
             alt="img"
             className="w-6 h-6 mb-2.5"
           />

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import homeCoaching from "@/assets/img/homeCoaching.jpg";
 import { Button } from "@/components/ui/button";
 import { MoveRight } from "lucide-react";
-import WhatYouGet from "./whatYouGet";
+import WhatYouGet from "./WhatYouGet";
 import OurProvider from "./OurProvider";
 import NewsUpdate from "./NewsUpdate";
 import axios from "axios";

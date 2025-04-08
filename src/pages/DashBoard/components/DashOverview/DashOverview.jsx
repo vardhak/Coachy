@@ -2,7 +2,6 @@ import React from "react";
 import { DashLineChart } from "./DashLineChart";
 import { BarChartComponent } from "./BarChartComponent";
 import { RadialChartComponent } from "./RadialChartComponent";
-import { CalendarComponent } from "./CalenderComponent";
 import MailBoxComponent from "./MailBoxComponent";
 
 const tableData = [
