@@ -9,9 +9,10 @@ export default function AdminRoute({ children }) {
   const [isAdmin, setIsAdmin] = useState(null);
 
   useEffect(() => {
+    const BASE_URL = import.meta.env.VITE_BASE_URL;
     const checkAdmin = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/getAdmin");
+        const response = await axios.get(`${BASE_URL}/getAdmin`);
         const fetchedAdminEmail = response.data.email;
 
         const userEmail = user?.primaryEmailAddress?.emailAddress;
